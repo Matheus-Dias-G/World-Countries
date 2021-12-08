@@ -32,11 +32,7 @@ class Country:
                 empty_country = ''
             elif v[0][-1] == '\n':
                 countries_names.append(v[0])
-        return countries_names[index]
-
-                #you can change values from string using indice a[0:1] = 'a'
-                        
-    
+        return countries_names[index]           
 
     def get_info(self, index_info):
         cap = []
